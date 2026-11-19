@@ -1,0 +1,12 @@
+adressevaelger:
+  version: VERSION
+  css:
+    component:
+      css/adressevaelger.css: { preprocess: false }
+  js:
+    js/adressevaelger.iife.js: { preprocess: false }
+    js/webform-adressevaelger.js: { preprocess: false }
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/once
